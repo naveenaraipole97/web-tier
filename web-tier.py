@@ -65,7 +65,7 @@ def getResponseFromRespQueue(): #fix the return of this
                 ],
                 MaxNumberOfMessages=10,
                 VisibilityTimeout=10,
-                WaitTimeSeconds=20
+                WaitTimeSeconds=2
             )
     
             messages = response.get('Messages',[])
